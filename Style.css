@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+body {
+  background-color: #2b333c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+
+header {}
+
+header a {
+  font-family: Poppins Semibold;
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: rgb(255, 89, 0);
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background-image:
+    linear-gradient(to bottom, rgba(18, 18, 18, 0.52), rgba(255, 122, 5, 0.73)),
+    url('/assets/MaxPixel.net-Background-Floor-Road-Texture-Path-Color-Cement-5198670.jpg');
+  background-size: cover;
+  color: white;
+  /* background: url('/blitz/Desktop\ -\ 2.jpg'); */
+  /* background-repeat: no-repeat; */
+}
+
+header .container .col-md-7 {
+  font-family: Poppins;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+header .text-center .img {
+  width: 10px;
+}
+
+/********** section 1 **************/
+
+.section-1 {
+  padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .suproy img {
+  margin-top: 15%;
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 0px 20px 0px 20px;
+}
+
+/* /* .section-1 .row .col-md-6:last-child {
+  position: relative;
+} */
+
+.section-1 .row .col-md-6 .panel {
+  /* position: absolute;
+  top: 7vmin;
+  left: -18vmin; */
+  background: #ffffff;
+  padding: 10%;
+  border-radius: 20px 00px 20px 20px;
+  /* border-radius: 20px;
+  text-align: left; */
+  /* padding: 13vmin 5vmin 20vmin 10vmin; */
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: Poppins;
+  /* z-index: 1; */
+}
+
+/* /* .section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+} */
+
+/* .section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+} */
+*/
+
+/* -------------------------------------------------------------------------- */
+/*                            card from md bootsrap                           */
+/* -------------------------------------------------------------------------- */
+/*----  Main Style  ----*/
+#cards_landscape_wrap-2 {
+  text-align: center;
+}
+
+#cards_landscape_wrap-2 .container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#cards_landscape_wrap-2 a {
+  text-decoration: none;
+  outline: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 20px;
+  padding-top: -50px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box {
+  background: #ff5c04;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 20px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  -webkit-transition: all .9s ease;
+  -moz-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  -ms-transition: all .9s ease;
+  width: 100%;
+  height: 200px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box {
+  text-align: center;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+  padding: 30px 18px;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  background-image: linear-gradient(rgb(132, 132, 132), rgb(36, 36, 36));
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover {
+  background-image: linear-gradient(rgb(31, 31, 31), rgb(103, 103, 103));
+  /* box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50); */
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  color: #ff6d44;
+}
+
+
+
+/*  Section 2  */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("../assets/briansupra.jpg");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background: rgba(82, 44, 20, 0.7);
+  padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+  font-family: Bebas Neue;
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content>p {
+  font-family: Poppins;
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+
+
+
+
+/* Section Team */
+
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+  color: white;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card-body>a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+
+
+
+footer {
+  background: rgb(33, 28, 24);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p>span {
+  color: #ff7206;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: rgb(255, 132, 0) !important;
+}
+
+footer .input-group .input-group-text {
+  border: none;
+}
+
+footer .column i {
+  color: #ff6817;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i+i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
